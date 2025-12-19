@@ -1,0 +1,89 @@
+
+---
+
+## 🔬 Metodología
+
+### 1️⃣ Preparación de datos
+- Redimensionado de imágenes a 224x224
+- Normalización de valores de píxeles
+- Aumento de datos (rotación, zoom, desplazamiento, flip horizontal)
+- Separación entrenamiento / validación
+
+---
+
+### 2️⃣ Modelo 1: CNN desde cero
+
+- Capas convolucionales progresivas
+- MaxPooling
+- Capas densas
+- Softmax para clasificación binaria
+- Entrenamiento completo desde cero
+
+📉 **Resultado:**  
+El modelo aprende patrones básicos, pero presenta inestabilidad y limitaciones para generalizar correctamente debido al tamaño del dataset.
+
+---
+
+### 3️⃣ Modelo 2: Transfer Learning (MobileNetV2)
+
+- Modelo base preentrenado en ImageNet
+- `include_top=False`
+- Capas congeladas
+- GlobalAveragePooling
+- Capas densas ligeras
+- Learning rate reducido
+
+📈 **Resultado:**  
+Aprendizaje más rápido, estable y con mejor capacidad de generalización.
+
+---
+
+## 📊 Resultados
+
+### 🔹 CNN desde cero
+- Mayor fluctuación en la pérdida
+- Menor confianza en predicciones
+- Errores frecuentes en imágenes complejas
+
+### 🔹 Transfer Learning
+- Pérdida muy baja
+- Predicciones consistentes
+- Alta confianza incluso en imágenes no vistas
+- Mejor desempeño general con menos épocas
+
+---
+
+## 🖼️ Evaluación visual
+
+Se incluye una evaluación visual mostrando:
+- Imagen original
+- Clase predicha
+- Probabilidad
+- Comparación con la etiqueta real
+
+Esto permite analizar el comportamiento real del modelo más allá de métricas numéricas.
+
+---
+
+## ✅ Conclusiones
+
+- El Transfer Learning es significativamente más eficiente que entrenar una CNN desde cero para datasets pequeños.
+- MobileNetV2 permite aprovechar conocimiento previo aprendido en grandes conjuntos de datos.
+- Ajustar correctamente la arquitectura y la tasa de aprendizaje es clave para evitar sobreconfianza.
+- La evaluación visual es fundamental para entender el comportamiento del modelo.
+
+---
+
+## 🚀 Posibles mejoras futuras
+
+- Fine-tuning parcial de las capas finales del modelo base
+- Uso de callbacks como EarlyStopping
+- Ampliación del dataset
+- Inclusión de más clases
+
+---
+
+## 👤 Autor
+
+Proyecto desarrollado por **Manuel Antonio Loaiza Pintor**  
+Estudiante autodidacta de Machine Learning y Computer Vision.
