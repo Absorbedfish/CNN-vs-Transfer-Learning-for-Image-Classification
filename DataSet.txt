@@ -1,3 +1,0 @@
-Descaraga el data set usado es este ejercicio
-El set contiene imagenes de jirafas y babuinos
-https://drive.google.com/file/d/1Q1a8ycu6JZw_O6_yJlfEqo9yiP-WcR-Q/view?usp=sharing
