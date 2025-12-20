@@ -2,6 +2,9 @@
 
 Este directorio contiene el conjunto de datos utilizado para entrenar y evaluar los modelos de clasificación de imágenes del proyecto **CNN vs Transfer Learning**.
 
+## Descargalo desde aqui:
+https://drive.google.com/file/d/1Q1a8ycu6JZw_O6_yJlfEqo9yiP-WcR-Q/view?usp=sharing
+
 ## 📁 Contenido
 
 - `dataset.zip`:  
