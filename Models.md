@@ -14,6 +14,8 @@ Este directorio contiene los modelos resultantes del entrenamiento realizado en 
 
 Debido a su gran tamaño, el modelo CNN entrenado desde cero no se incluye directamente en el repositorio.
 El modelo de Transfer Learning sí se proporciona, ya que representa una solución más práctica y eficiente.
+Si aun quieres descargar los modelos CNN puedes descragarlo desde aqui:
+https://drive.google.com/file/d/1XVpU6F7r2AOIkpewZYWCfVPgd-VzTfsG/view?usp=sharing
 
 ## 🧠 Descripción de los modelos
 
