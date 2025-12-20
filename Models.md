@@ -4,17 +4,16 @@ Este directorio contiene los modelos resultantes del entrenamiento realizado en 
 
 ## 📁 Contenido
 
-- `mi_modelo_CNN.h5`  
-  Modelo de red neuronal convolucional entrenado desde cero utilizando únicamente el dataset del proyecto.
-
-  - `mi_modelo_CNN.keras`  
-  Versión del mismo modelo guardada en el formato nativo de Keras.
-
 - `mi_modelo_TL.h5`  
   Modelo de clasificación basado en Transfer Learning utilizando MobileNetV2 como modelo base preentrenado en ImageNet.
 
 - `mi_modelo_TL.keras`  
   Versión del mismo modelo guardada en el formato nativo de Keras.
+
+📌 Nota sobre los archivos del repositorio
+
+Debido a su gran tamaño, el modelo CNN entrenado desde cero no se incluye directamente en el repositorio.
+El modelo de Transfer Learning sí se proporciona, ya que representa una solución más práctica y eficiente.
 
 ## 🧠 Descripción de los modelos
 
